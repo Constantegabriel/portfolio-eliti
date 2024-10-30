@@ -4,7 +4,7 @@ export default function Home() {
     return (
 
     <section>
-        <Link href={'/'}><button>back</button></Link>
+        <Link href={'/'}><button className="page-servicos">back</button></Link>
     </section>
     )
 }

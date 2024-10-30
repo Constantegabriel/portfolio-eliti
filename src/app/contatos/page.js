@@ -4,7 +4,7 @@ export default function Home() {
     return (
 
     <section>
-        <Link href={'/'}><button>back</button></Link>
+        <Link href={'/'}><button className="page-contatos">back</button></Link>
 <h1>48 998143419</h1>
 
     </section>

@@ -7,12 +7,56 @@
 background-color: rgb(255, 255, 255);
 }
 
-.eueueu{
-background-color: rgb(150, 150, 150);
-padding: 30px 100px;
+:root{
 
+--blue:#33ccff;
+
+}
+
+.barra{
+box-shadow: 0 0.1rem 5 #33ccff;
+background-color: rgb(231, 231, 231);
+padding: 30px 100px;
+width: 100%;
+margin-bottom: 40px;
+
+}
+
+.div2{
+
+    margin-left: 40px;
+
+}
+
+.lista{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2rem;
 }
 
 .botao {
 border-radius: 35px;
+padding: 8px 30px;
+border: none;
+background-color: var(--blue);
+}
+
+.page-servicos{
+padding: 30px 900px;
+
+}
+
+.page-sobre{
+padding: 30px 900px;
+    
+}
+
+.page-trabalhos{
+padding: 30px 900px;
+        
+}
+
+.page-contatos{
+ padding: 30px 900px;
 }
