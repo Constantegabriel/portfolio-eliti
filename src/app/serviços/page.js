@@ -5,7 +5,6 @@ export default function Home() {
 
     <section>
         <Link href={'/'}><button>back</button></Link>
-        <h1>hello pipow</h1>
     </section>
     )
 }
