@@ -1,46 +1,81 @@
+/*fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/*fontes*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-background-color: rgb(255, 255, 255);
+background-color: var(--whitex);
 }
 
 :root{
-
---blue:#33ccff;
-
+--bluedark:   #002b35;
+--bluesoso:   #00fff2;
+--blueclean:  #00e5ff;
+--gray:       #7e7e7e;
+--grayx:      #3d3d3d;
+--white:      #c5d7d9;
+--black:      #000000;
+--whitex:      #fff;
 }
+
+/*cabeça inicio*/
 
 .barra{
-box-shadow: 0 0.1rem 5 #33ccff;
-background-color: rgb(231, 231, 231);
-padding: 30px 100px;
+box-shadow: 0 0.1rem 1rem var(--blueclean);
+background-color: var(--grayx);
+padding: 20px 100px;
 width: 100%;
-margin-bottom: 40px;
-
+position: absolute;
+font-family: 'Poppins', sans-serif;
 }
 
-.div2{
-
-    margin-left: 40px;
-
-}
-
+/*ul*/
 .lista{
+    background-color: var(--grayx);
 display: flex;
-justify-content: center;
+justify-content: start;
 align-items: center;
 gap: 2rem;
 }
 
 .botao {
-border-radius: 35px;
-padding: 8px 30px;
+border-radius: 20px;
+padding: 3px 15px;
 border: none;
-background-color: var(--blue);
+background-color: var(--whitex);
+color: var(--bluedark);
 }
+
+
+.link-sobre{
+background-color: var(--grayx);
+padding: 10px 1px;
+
+}
+.link-serviços{
+background-color: var(--grayx);
+padding: 10px 1px;
+    
+}
+
+.link-trabalhos{
+background-color: var(--grayx);
+padding: 10px 1px;
+    
+}
+
+.link-contatos{
+background-color: var(--grayx);
+padding: 10px 1px;
+    
+}
+
 
 .page-servicos{
 padding: 30px 900px;
@@ -59,4 +94,16 @@ padding: 30px 900px;
 
 .page-contatos{
  padding: 30px 900px;
+}
+
+/* cabeça fim*/
+
+/*showroom inicio*/
+
+.div2{
+padding: 300px 1000px;
+background-color: var(--grayx);
+margin: 0;
+margin-top: 0;
+color: var(--whitex);
 }

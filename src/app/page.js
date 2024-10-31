@@ -8,10 +8,10 @@ export default function Home() {
 <section>
   <div className="barra">
   <ul className="lista">
-  <li><Link href={'./sobre-eu'}><button className="botao">sobre</button></Link></li>
-  <li><Link href={'./servicos'}><button className="botao">serviços</button></Link></li>
-  <li><Link href={'./trabalhos'}><button className="botao">trabalhos</button></Link></li>
-  <li><Link href={'./contatos'}><button className="botao">contatos</button></Link></li>
+  <li><Link href={'./sobre-eu'} className="link-sobre"><button className="botao">sobre</button></Link></li>
+  <li><Link href={'./servicos'} className="link-serviços"><button className="botao">serviços</button></Link></li>
+  <li><Link href={'./trabalhos'} className="link-trabalhos"><button className="botao">trabalhos</button></Link></li>
+  <li><Link href={'./contatos'} className="link-contatos"><button className="botao">contatos</button></Link></li>
 </ul>
 </div>
 
